@@ -1,3 +1,135 @@
-site_name: My Docs
+# Project information
+site_name: Machine Learning Essentials
+site_url: https://ccdsiub.github.io/ml-essentials/
+site_author: Mir Sazzat Hossain, Rafat Hasan
+site_description: >-
+  This is course material for the Machine Learning Essentials course at the 
+  Center for Computational and Data Science, Independent University, Bangladesh.
+
+# Repository
+repo_name: ccdsiub/ml-essentials
+repo_url: https://github.com/ccdsiub/ml-essentials
+
+# Copyright
+copyright: Copyright &copy; 
+  <a href="https://ccds.io">Center for Computational and Data Science</a>
+  All rights reserved.
+
+# Configuration
 theme:
   name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  # logo: assets/images/logo.png
+
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - mkdocs-jupyter:
+      include: ["*.py", "*.ipynb"]
+      ignore: []
+      execute: false # execute the notebook cells when building
+      allow_errors: false # fail the build upon error in a notebook cell
+      include_source: True # download the source notebooks
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:ccds@iub.edu.bd
+    - icon: fontawesome/brands/github
+      link: https://github.com/ccdsiub/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ccds-iub/
+    - icon: fontawesome/solid/link
+      link: https://www.ccds.ai/
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
