@@ -79,7 +79,7 @@ plugins:
       ignore: []
       execute: false # execute the notebook cells when building
       allow_errors: false # fail the build upon error in a notebook cell
-      include_source: True # download the source notebooks
+      include_source: true # download the source notebooks
   - git-revision-date-localized:
       enable_creation_date: true
 
@@ -137,3 +137,23 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Course Material:
+    - Introduction: introduction.md
+    - Supervised Learning:
+      - supervised-learning/index.md
+      - Tree-Based Algorithms:
+        - supervised-learning/tree-based/index.md
+        - Decision Trees: supervised-learning/tree-based/decision-tree.ipynb
+      - Regression:
+        - supervised-learning/regression/index.md
+        - Simple Linear Regression: supervised-learning/regression/linear-regression.ipynb
+      - Classification:
+        - supervised-learning/classification/index.md
+        - Naive Bayes classifiers: supervised-learning/classification/naive-bayes.ipynb
+        - Logistic Regression: supervised-learning/classification/logistic-regression.ipynb
+        - K-Nearest Neighbors: supervised-learning/classification/k-nearest-neighbors.ipynb
+      
+
