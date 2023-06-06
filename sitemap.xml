@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/introduction/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/classification/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/classification/k-nearest-neighbors/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/classification/logistic-regression/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/classification/naive-bayes/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/regression/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/regression/linear-regression/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/tree-based/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ccdsiub.github.io/ml-essentials/supervised-learning/tree-based/decision-tree/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
